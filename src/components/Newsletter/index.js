@@ -43,8 +43,10 @@ const Newsletter = () => {
                   }}
                 >
                   <input
+                    id="email"
                     type="email"
                     ref={emailRef}
+                    required
                     placeholder="seuemail@bemaqui.com"
                   />
                   <input type="submit" value="Me avise!" />
