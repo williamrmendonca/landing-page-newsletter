@@ -2,6 +2,7 @@ import React from 'react'
 
 import Button from 'components/Button'
 import { gaEvent } from 'utils/ga'
+import Newsletter from 'components/Newsletter'
 
 import * as S from './styles'
 
@@ -36,7 +37,7 @@ const PricingBox = () => (
       </S.BenefitsItem>
     </S.BenefitsList>
 
-    <Button
+    {/* <Button
       href="https://www.udemy.com/course/react-avancado/?couponCode=PROMONOV20"
       onClick={onClick}
       withPrice
@@ -46,7 +47,10 @@ const PricingBox = () => (
         <S.ButtonFullPrice>R$549</S.ButtonFullPrice>
         <S.ButtonDiscountPrice>R$389</S.ButtonDiscountPrice>
       </div>
-    </Button>
+    </Button> */}
+
+    <Newsletter />
+
   </S.Box>
 )
 

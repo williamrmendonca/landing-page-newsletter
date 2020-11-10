@@ -12,7 +12,7 @@ import SectionReviews from 'components/SectionReviews'
 import SectionFaq from 'components/SectionFaq'
 import Footer from 'components/Footer'
 import JsonSchema from 'components/JsonSchema'
-import Newsletter from 'components/Newsletter'
+// import Newsletter from 'components/Newsletter'
 
 const Index = () => (
   <>
@@ -23,7 +23,7 @@ const Index = () => (
     <SectionModules />
     <SectionAgenda />
     <PricingBox />
-    <Newsletter />
+    {/* <Newsletter /> */}
     <SectionAboutUs />
     <SectionReviews />
     <SectionFaq />
