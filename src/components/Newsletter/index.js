@@ -4,7 +4,7 @@ import MailchimpSubscribe from 'react-mailchimp-subscribe'
 import * as S from './styles'
 
 const url =
-  'https://williamrmendonca.us14.list-manage.com/subscribe/post?u=4697443522f6e465b6cf0d979&amp;id=02f1ff1c87'
+  'https://w7apps.us2.list-manage.com/subscribe/post?u=c0be835b33026100b2c54f7f6&amp;id=fa0084f938'
 
 const Newsletter = () => {
   const emailRef = createRef(undefined)
