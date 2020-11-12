@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Button from 'components/Button'
+// import Button from 'components/Button'
 import { gaEvent } from 'utils/ga'
 import Newsletter from 'components/Newsletter'
 
@@ -23,7 +23,6 @@ const PricingBox = () => (
       <S.BenefitsItem>
         Acesso aos <strong>6 módulos</strong> assim que lançados
       </S.BenefitsItem>
-
       <S.BenefitsItem>
         Código de <strong>todo o projeto</strong> separado em commits
       </S.BenefitsItem>
