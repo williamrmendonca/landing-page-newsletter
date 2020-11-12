@@ -17,9 +17,9 @@ const SectionHero = () => (
 
       <S.Content>
         <S.TextBlock
-            data-aos="fade-right"
-            data-aos-delay="100"
-            data-aos-duration="600"
+          data-aos="fade-right"
+          data-aos-delay="100"
+          data-aos-duration="600"
         >
           <S.Title>React Avançado</S.Title>
           <S.Description>

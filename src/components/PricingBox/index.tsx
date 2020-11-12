@@ -1,13 +1,13 @@
 import React from 'react'
 
 // import Button from 'components/Button'
-import { gaEvent } from 'utils/ga'
+// import { gaEvent } from 'utils/ga'
 import Newsletter from 'components/Newsletter'
 
 import * as S from './styles'
 
-const onClick = () =>
-  gaEvent({ action: 'click', category: 'buy', label: 'pricing box button' })
+// const onClick = () =>
+//   gaEvent({ action: 'click', category: 'buy', label: 'pricing box button' })
 
 const PricingBox = () => (
   <S.Box>
@@ -49,7 +49,6 @@ const PricingBox = () => (
     </Button> */}
 
     <Newsletter />
-
   </S.Box>
 )
 
