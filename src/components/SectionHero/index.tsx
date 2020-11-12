@@ -16,7 +16,11 @@ const SectionHero = () => (
       <Logo />
 
       <S.Content>
-        <S.TextBlock>
+        <S.TextBlock
+            data-aos="fade-right"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+        >
           <S.Title>React Avançado</S.Title>
           <S.Description>
             Crie aplicações reais com NextJS, Strapi, GraphQL e mais!
@@ -33,6 +37,9 @@ const SectionHero = () => (
         </S.TextBlock>
 
         <S.Image
+          data-aos="fade-left"
+          data-aos-delay="300"
+          data-aos-duration="1000"
           src="/img/hero-illustration.svg"
           alt="Ilustração de um desenvolvedor em frente a um computador com várias linhas de código."
         />
