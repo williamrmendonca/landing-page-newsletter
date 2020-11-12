@@ -18,8 +18,8 @@ const SectionHero = () => (
       <S.Content>
         <S.TextBlock
             data-aos="fade-right"
-            data-aos-delay="300"
-            data-aos-duration="1000"
+            data-aos-delay="100"
+            data-aos-duration="600"
         >
           <S.Title>React Avançado</S.Title>
           <S.Description>
@@ -39,7 +39,7 @@ const SectionHero = () => (
         <S.Image
           data-aos="fade-left"
           data-aos-delay="300"
-          data-aos-duration="1000"
+          data-aos-duration="600"
           src="/img/hero-illustration.svg"
           alt="Ilustração de um desenvolvedor em frente a um computador com várias linhas de código."
         />
