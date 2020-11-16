@@ -1,8 +1,6 @@
-# Simple NextJS Quick Start
+# Landing Page em NextJS
 
-A simple project starter to work with React, NextJS and Styled Components
-
-You can see the example in [https://nextjs-quickstart.now.sh/](https://nextjs-quickstart.now.sh/)
+Projeto de uma Langing page usando React, NextJS and Styled Components
 
 ### 📦 Install
 
